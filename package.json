@@ -1,0 +1,16 @@
+{
+  "name": "amazoning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "amazon.js",
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "playstation": "node amazon.js https://www.amazon.de/-/en/dp/B08H93ZRK9/ref=sr_1_2",
+    "xbox": "node amazon.js https://www.amazon.de/-/en/dp/B08H93ZRLL/ref=sr_1_2"
+  },
+  "author": "Rmndbrvn",
+  "license": "MIT"
+}
